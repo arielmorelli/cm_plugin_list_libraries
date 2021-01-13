@@ -4,9 +4,9 @@ routes = [
     {"rule": "/libraries", "view_func": list_libraries},
 ]
 
-run_func = [
-    {"func": LibraryScript},
-    {"func": LibraryScriptShortName},
-    {"func": LibraryScriptId},
+scripts = [
+    LibraryScript,
+    LibraryScriptShortName,
+    LibraryScriptId,
 ]
 
