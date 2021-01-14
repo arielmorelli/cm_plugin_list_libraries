@@ -71,6 +71,6 @@ class Plugin(object):
              )
     
     def run_scripts(self):
-        for script in self.scripts:
+        for script in self.SCRIPTS:
             script.run()
 
