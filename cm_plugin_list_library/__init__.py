@@ -1,4 +1,12 @@
-from plugin import Plugin
+from plugin import list_libraries, LibraryScript, LibraryScriptShortName, LibraryScriptId
 
-__plugin__ = Plugin
+routes = [
+    {"rule": "/libraries", "view_func": list_libraries},
+]
+
+scripts = [
+    LibraryScript,
+    LibraryScriptShortName,
+    LibraryScriptId,
+]
 
